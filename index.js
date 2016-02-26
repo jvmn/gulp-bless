@@ -19,6 +19,10 @@ module.exports = function(options){
     };
 
     options = merge(true, defaults, options);
+    
+    if (!(options.fileSuffix)) {
+      options.fileSuffix = '-bless';
+    }
 
     return through.obj(function(file, enc, cb) {
         if (file.isNull()) return cb(null, file); // ignore
