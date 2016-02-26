@@ -9,6 +9,8 @@ Gulp plugin which splits CSS files suitably for Internet Explorer &lt; 10.
 
 This is the a [Gulp](http://github.com/gulpjs/gulp) wrapper around [bless.js](https://github.com/paulyoung/bless.js) (see [blesscss.com](http://blesscss.com/)).
 
+    **But** this is a modified version of Version 3.0.3. There will be no updates. This is a static working version which is forked of v3.0.3 and adds the possibility of changing the fileSuffix. If 3.0.3 is enough for you, here you go.
+
 # Information
 <table>
 <tr>
