@@ -20,7 +20,7 @@ module.exports = function(options){
 
     options = merge(true, defaults, options);
     
-    if (!(options.fileSuffix)) {
+    if (!(options.fileSuffix) && options.fileSuffix!=='') {
       options.fileSuffix = '-bless';
     }
 
