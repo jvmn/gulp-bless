@@ -5,7 +5,7 @@
   "description": "CSS post-processor which splits CSS files suitably for Internet Explorer < 10. Bless + Gulp = gulp-bless.",
   "main": "./index.js",
   "dependencies": {
-    "bless": "~3.0.3",
+    "bless": "https://github.com/jvmn/bless.git",
     "gulp-util": "*",
     "through2": "~0.5.1",
     "merge": "~1.2.0"
@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/BlessCSS/gulp-bless.git"
+    "url": "git://github.com/jvmn/gulp-bless.git"
   },
   "keywords": [
     "gulpplugin",
@@ -33,10 +33,10 @@
     "internet explorer",
     "bless"
   ],
-  "author": "Adam Lynch <adam@teamwork.com>",
+  "author": "Adam Lynch <adam@teamwork.com>, Modified by JVMN",
   "license": "MIT",
   "bugs": {
-    "url": "http://github.com/BlessCSS/gulp-bless/issues"
+    "url": "http://github.com/jvmn/gulp-bless/issues"
   },
   "engines": {
     "node": ">=0.9"
