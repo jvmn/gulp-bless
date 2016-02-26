@@ -5,7 +5,7 @@
   "description": "CSS post-processor which splits CSS files suitably for Internet Explorer < 10. Bless + Gulp = gulp-bless.",
   "main": "./index.js",
   "dependencies": {
-    "bless": "https://github.com/jvmn/bless.git#v3.0.3-static",
+    "bless": "git://github.com/jvmn/bless.git#v3.0.3-static",
     "gulp-util": "*",
     "through2": "~0.5.1",
     "merge": "~1.2.0"
